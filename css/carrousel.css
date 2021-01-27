@@ -6,8 +6,8 @@
     position: relative;
     /* Esta propiedad es la que indica el tamaño del carrousel de la cual depende
     el script para pasar a la siguiente o retroseder una imagen */
-    width: 90%;
-    height: 300px;
+    width: 70%;
+    height: 450px;
     border-radius: 5px;
 }
 
