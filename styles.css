@@ -32,3 +32,14 @@
 .carrousel .carrousel_images .i6 {
     background-image: url('https://cdn.pixabay.com/photo/2021/01/05/07/02/torii-5889982_960_720.jpg');
 }
+
+
+/*estilos de las secciones*/
+
+section {
+    padding: 50px;
+}
+
+section .section-info {
+    padding: 20px 0;
+}
