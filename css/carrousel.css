@@ -1,7 +1,7 @@
 .carrousel {
     /* display: flex; */
     align-items: center;
-    margin: 7rem auto 2rem auto;
+    margin: 11rem auto 2rem auto;
     overflow: hidden;
     position: relative;
     /* Esta propiedad es la que indica el tamaño del carrousel de la cual depende
