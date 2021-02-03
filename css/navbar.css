@@ -40,8 +40,16 @@ header nav ul .link {
     font-weight: bold;
 }
 
+header nav ul .link-active {
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+}
+
 header nav ul .link:hover {
-    border: 2px solid rgb(0, 195, 255);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
 }
 
 header nav #menu-icon {
@@ -55,7 +63,7 @@ header nav #menu-icon {
     font-weight: bold;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 450px) {
     header nav #menu-icon {
         display: inline;
     }
@@ -81,10 +89,6 @@ header nav #menu-icon {
     nav ul .link {
         margin-top: 30px;
         color: white;
-    }
-    nav ul li:hover a {
-        border: 1px solid rgb(251, 122, 3);
-        padding: 10px;
     }
 }
 
@@ -112,11 +116,23 @@ header nav #menu-icon {
     width: 90%;
 }
 
+.scrolling-active nav #menu-icon {
+    color: white;
+}
+
 .scrolling-active nav .link {
     color: white;
 }
 
+.scrolling-active nav .link-active {
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+}
+
 .scrolling-active nav .link:hover {
-    color: rgb(251, 122, 3);
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
     transition: all 0.5s;
 }
