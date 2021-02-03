@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="contenido de los ingenieros industriales">
 
-    <title>Ingenieros industriales de Oaxaca</title>
+    <title>Infraestructura e Ingeniería Huaxyacac</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/carrousel.css">
@@ -20,7 +21,7 @@
     <header>
         <nav>
             <a class="logo" href="#">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/480px-Xbox_one_logo.svg.png" width="50px">
+                <img src="assets/Logo.png" width="80px">
             </a>
             <ul id="menu">
                 <li onclick="abrirMenu()" class="link"><a>Inicio</a></li>
@@ -32,39 +33,58 @@
     </header>
 
 
+    <h1>Infraestructura e Ingeniería Huaxyacac</h1>
 
-    <div class="carrousel">
+    <div class="carrousel" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="carrousel_images">
-            <div class="image i1"></div>
-            <div class="image i2"></div>
-            <div class="image i3"></div>
-            <div class="image i4"></div>
-            <div class="image i5"></div>
-            <div class="image i6"></div>
+            <div class="image i1">
+                <p>nombre de la obra</p>
+            </div>
+            <div class="image i2">
+                <p>nombre de la obra</p>
+            </div>
+            <div class="image i3">
+                <p>nombre de la obra</p>
+            </div>
+            <div class="image i4">
+                <p>nombre de la obra</p>
+            </div>
+            <div class="image i5">
+                <p>nombre de la obra</p>
+            </div>
+            <div class="image i6">
+                <p>nombre de la obra</p>
+            </div>
         </div>
         <button class="carrousel_button previous" id="previous"><</button>
         <button class="carrousel_button next" id="next">></button>
     </div>
 
     <section>
-        <div class="section-info">
-            <h2>Nombre empresa</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ab ad veniam enim non? Iste vero vel at pariatur ex praesentium voluptatum, laborum minus modi illo corporis ut quas obcaecati!</p>
+        <div class="section-info" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+            <h3>¿Quienes somos?</h3>
+            <p>Infraestrctura e Ingeniería Huaxyacac es una empresa mexicana con x años de experiencia brindando servicios especializados en el ramo de la construcción en acero. Nos especializamos en el diseño, cálculo y construcción de cualquier elemento
+                o estructura metálica</p>
         </div>
 
         <hr>
 
-        <div class="section-info">
-            <h3>Mision</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eligendi eaque ad earum rem minus fugiat quos ducimus, nulla quasi fugit quisquam, porro voluptate aspernatur? Repellat corrupti mollitia itaque consequuntur.</p>
+        <div class="section-mision">
+            <img src="assets/undraw_under_construction_46pa.svg" alt="" data-aos="fade-right" data-aos-duration="1500">
+            <div class="section-mision-content" data-aos="fade-left" data-aos-duration="1500">
+                <h3>Mision</h3>
+                <p>Cubrir las expectativas de proyecto de diseño y construcción habitacional o comercial tanto como la satisfacción del cliente.</p>
+            </div>
         </div>
 
         <hr>
 
-        <div class="section-info">
-            <h3>Visión</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corporis corrupti id, quo obcaecati odit provident nostrum repellendus ut eos quis iusto ea sapiente quisquam nihil dolores cumque saepe omnis non recusandae quia optio! Vitae consectetur
-                optio voluptatum rerum quas.</p>
+        <div class="section-vision">
+            <div class="section-vision-content" data-aos="fade-right" data-aos-duration="1500">
+                <h3>Visión</h3>
+                <p>Ser un referente en la industria, proporcionando a nuestros clientes una solución integral en estructuras de acero, enfocados de manera continua a mantener y mejorar nuestros altos niveles de servicio, calidad y seguridad en el trabajo.</p>
+            </div>
+            <img src="assets/undraw_Building_re_xfcm.svg" alt="" data-aos="fade-left" data-aos-duration="1500">
         </div>
 
     </section>
@@ -73,19 +93,19 @@
 
     <footer>
         <div class="footer-content">
-            <div class="footer-main">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/480px-Xbox_one_logo.svg.png" width="50px">
+            <div class="footer-main" data-aos="fade-up" data-aos-duration="1500">
+                <img src="assets/Logo.png" width="100px">
                 <p>Somos una empresa... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum harum alias, voluptatem, enim recusandae unde ratione sunt eum culpa suscipit tenetur nisi consequuntur modi nesciunt veritatis neque mollitia ipsa
                     accusamus? Quae neque rerum, assumenda impedit modi nostrum molestiae quia vero nobis repellat corporis sunt odit dicta in labore eum eos.</p>
             </div>
             <div class="footer-bottom">
-                <div class="footer-info">
-                    <h4><i class="fas fa-home"></i> Estamos ubicados en</h4>
+                <div class="footer-info" data-aos="fade-right" data-aos-duration="1500">
+                    <h4><i class="fas fa-home"></i> Encuentranos en</h4>
                     <p>Tobala 4 101, Fraccionamiento los agaves, Santa Cruz Xoxocotlán, Oaxaca</p>
                     <p>Código postal: <strong>71232</strong></p>
                 </div>
-                <div class="footer-contact">
-                    <h4><i class="fas fa-phone-square"></i> Contacto</h4>
+                <div class="footer-contact" data-aos="fade-left" data-aos-duration="1500">
+                    <h4><i class="fas fa-phone-square"></i> Contactactanos</h4>
                     <p>hsanrmz@gmail.com</p>
                     <ul class="socials">
                         <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -101,10 +121,11 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/aef6187a58.js" crossorigin="anonymous"></script>
-    <script src="carrousel.js"></script>
-    <script src="header.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/carrousel.js"></script>
+    <script src="js/header.js"></script>
 </body>
 
 </html>

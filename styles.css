@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -10,36 +12,112 @@
 */
 
 .carrousel .carrousel_images .i1 {
-    background-image: url('https://cdn.pixabay.com/photo/2021/01/05/07/02/torii-5889982_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_960_720.jpg');
 }
 
 .carrousel .carrousel_images .i2 {
-    background-image: url('https://cdn.pixabay.com/photo/2015/03/28/16/40/lake-696098_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/18/17/46/architecture-1836070_960_720.jpg');
 }
 
 .carrousel .carrousel_images .i3 {
-    background-image: url('https://cdn.pixabay.com/photo/2020/12/03/16/58/sunset-5801050_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/27/20/28/florence-1066314_960_720.jpg');
 }
 
 .carrousel .carrousel_images .i4 {
-    background-image: url('https://cdn.pixabay.com/photo/2021/01/13/16/29/snow-5914604_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg');
 }
 
 .carrousel .carrousel_images .i5 {
-    background-image: url('https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2014/03/08/22/32/escalator-283448_960_720.jpg');
 }
 
 .carrousel .carrousel_images .i6 {
-    background-image: url('https://cdn.pixabay.com/photo/2021/01/05/07/02/torii-5889982_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/15/07/13/skyline-600001_960_720.jpg');
+}
+
+h1 {
+    margin-top: 8rem;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
 }
 
 
 /*estilos de las secciones*/
 
-section {
-    padding: 50px;
+section .section-info {
+    background-color: blue;
+    min-height: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/15/07/13/skyline-600001_960_720.jpg');
 }
 
-section .section-info {
-    padding: 20px 0;
+section .section-info::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section .section-info h3 {
+    font-size: 2rem;
+}
+
+section .section-info h3,
+section .section-info p {
+    font-weight: bold;
+    z-index: 100;
+    color: white;
+}
+
+
+/*mision y vision*/
+
+section .section-mision,
+.section-vision {
+    min-height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+section .section-mision .section-mision-content,
+section .section-mision img {
+    width: 45%;
+}
+
+section .section-vision .section-vision-content,
+section .section-vision img {
+    width: 45%;
+}
+
+@media(max-width: 500px) {
+    section .section-mision,
+    .section-vision {
+        flex-direction: column;
+    }
+    section .section-mision .section-mision-content,
+    section .section-mision img {
+        width: 80%;
+    }
+    section .section-vision .section-vision-content,
+    section .section-vision img {
+        width: 80%;
+    }
 }
