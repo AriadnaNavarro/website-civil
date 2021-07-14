@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* colores principales */
+
+
+/* naranja */
+
+
+/* rgb(251, 122, 3) */
+
+
+/* azul */
+
+
+/* rgb(0, 161, 138) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* position: relative; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fondo-imagen {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ******************* */
+
+
+/* Footer */
+
+
+/* ******************* */
+
+footer {
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* z-index: -100; */
+    width: 100%;
+    /* height: 400px; */
+    background: #262626;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p span:nth-child(1) {
+    color: rgb(251, 122, 3);
+}
+
+footer p span:nth-child(2) {
+    color: rgb(251, 122, 3);
+}
+
+footer p span:nth-child(3) {
+    color: rgb(251, 122, 3);
+}
+
+footer p span:nth-child(4) {
+    color: rgb(0, 161, 138);
+}
+
+footer p span:nth-child(5) {
+    color: rgb(0, 161, 138);
+}
+
+footer p span:nth-child(6) {
+    color: rgb(0, 161, 138);
+}
+
+footer .footer-contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .footer-contenido .empresa {
+    width: 30%;
+}
+
+footer .footer-separacion {
+    display: none;
+    margin-top: 15px;
+}
+
+@media (max-width: 670px) {
+    footer .footer-contenido {
+        flex-direction: column;
+    }
+    footer .contacto {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    footer .footer-contenido .empresa {
+        width: 70%;
+        margin: 20px auto;
+    }
+    footer .footer-separacion {
+        display: inline;
+    }
+}
+
+footer .redes {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .redes a {
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    color: black;
+}
+
+footer .redes .link-facebook:hover {
+    background-color: #3b5998;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+footer .redes .link-twitter:hover {
+    background-color: aqua;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+footer .redes .link-insta:hover {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    transform: scale(1.1);
+    color: white;
+    transition: all 0.5s;
+}
