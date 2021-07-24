@@ -40,9 +40,21 @@ header nav ul .link {
     font-weight: bold;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav .link:hover {
+    color: rgb(251, 122, 180);
+    transition: all 0.5s;
+}
+
 header nav ul .link-active {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black !important;
     border: 2px solid rgb(0, 0, 0);
 }
 
@@ -117,7 +129,7 @@ header nav #menu-icon {
 }
 
 .scrolling-active nav #menu-icon {
-    color: white;
+    color: white; /*color de icono del menu */
 }
 
 .scrolling-active nav .link {
@@ -125,7 +137,7 @@ header nav #menu-icon {
 }
 
 .scrolling-active nav .link-active {
-    color: black;
+    color: red;
     border: 2px solid white;
     background-color: white;
 }
@@ -135,4 +147,8 @@ header nav #menu-icon {
     border: 2px solid white;
     color: white;
     transition: all 0.5s;
+}
+
+.scrolling-active a {
+    color: white;
 }
