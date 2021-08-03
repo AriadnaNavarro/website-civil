@@ -18,8 +18,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    /* position: relative; */
+/*    font-family: 'Montserrat', sans-serif;
+*/    /* position: relative; */
+    font-family: 'Roboto', sans-serif;
+
 }
 
 body {
@@ -56,6 +58,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 30px;
+    clear: both;
 }
 
 footer p span:nth-child(1) {

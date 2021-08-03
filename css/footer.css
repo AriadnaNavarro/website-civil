@@ -73,6 +73,7 @@ footer .footer-copy {
 @media(max-width: 550px) {
     footer .footer-bottom {
         flex-direction: column;
+        
     }
     footer .footer-bottom .footer-contact {
         margin-top: 20px;
