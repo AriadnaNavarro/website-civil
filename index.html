@@ -36,13 +36,19 @@
             <ul id="menu">
                 
                 <li onclick="abrirMenu()"><a class="links" href="#">Inicio</a></li>                
-                <li onclick="abrirMenu()"><a class="links" href="#section-servicios">Servicios</a></li>                
-                <li onclick="abrirMenu()" class="link"><a>Clientes</a></li>
+                <li onclick="abrirMenu()"><a class="links" href="#section-servicios">Servicios</a></li>
+                <li onclick="abrirMenu()"><a class="links" href="#apps">Proyectos</a></li>                
                 <li onclick="abrirMenu()" class="link"><a>Contacto</a></li>
             </ul>
             <label id="menu-icon" onclick="abrirMenu()"><i class="fas fa-bars"></i></label>
         </nav>
     </header>
+
+
+
+
+
+
 
 
     <h1>Infraestructura e Ingeniería Huaxyacac</h1>
@@ -74,9 +80,8 @@
 
 
 
-
     <section>
-        <div class="section-info" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+        <div class="section-info"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500" >
             <h3>¿Quienes somos?</h3>
             <p>Infraestructura e Ingeniería Huaxyacac es una empresa mexicana con x años de experiencia brindando servicios especializados en el ramo de la construcción en acero. Nos especializamos en el diseño, cálculo y construcción de cualquier elemento
                 o estructura metálica</p>
@@ -94,7 +99,7 @@
 
         <hr>
 
-        <div class="section-vision">
+        <div class="section-vision" id="quienes">
             <div class="section-vision-content" data-aos="fade-up" data-aos-duration="1500">
                 <h3>Visión</h3>
                 <p>Ser un referente en la industria, proporcionando a nuestros clientes una solución integral en estructuras de acero, enfocados de manera continua a mantener y mejorar nuestros altos niveles de servicio, calidad y seguridad en el trabajo.</p>
@@ -103,19 +108,13 @@
         </div>
     </section>
 
+<hr>
 
-
- <section class="servicios" id="section-servicios" >
+ <section class="servicios"  id="section-servicios" >
             <div class="content-servicios">
-
-                <!-- <div class="banner" data-aos="zoom-out" data-aos-duration="1500">
-                  <h1>SERVICIOS</h1>
-                   <h2>Construyamos algo juntos</h2>
-                </div> -->
-
-            <div class="app-banner" data-aos="fade-up" data-aos-duration="1500">
-                 <h2>SERVICIOS</h2>
-                 <p>Construyamos algo juntos</p>
+            <div class="banner">
+                 <h2 class="animated fadeInDown">SERVICIOS</h2>
+                 <p class="animated fadeInDown">Construyamos algo juntos</p>
             </div>
          
             <div class="opciones" >
@@ -127,12 +126,12 @@
                 <div class="opcion-contenido">
                     <h2>Consultoria</h2>
                     <br>
-                    
+                     
                 </div>
             </div>
             <div class="opcion">
                 <div class="opcion-img">
-                    <img src="assets/edificios.png" alt="">
+                    <img src="assets/edificios.svg" alt="">
                 </div>
                 <div class="opcion-contenido">
                     <h2>Cálculo estructural</h2>
@@ -142,7 +141,7 @@
             </div>
             <div class="opcion">
                 <div class="opcion-img">
-                    <img src="assets/mantenimientoBlanco.png" alt="">
+                    <img src="assets/mantenimiento.svg" alt="">
                 </div>
                 <div class="opcion-contenido">
                     <h2>Mantenimiento</h2>
@@ -152,7 +151,7 @@
             </div>
             <div class="opcion">
                 <div class="opcion-img">
-                    <img src="assets/puente.png" alt="">
+                    <img src="assets/puente.svg" alt="">
                 </div>
                 <div class="opcion-contenido">
                     <h2>Puentes</h2>
@@ -161,7 +160,7 @@
             </div>
             <div class="opcion">
                 <div class="opcion-img">
-                    <img src="assets/tanqueBlanco.png" alt="">
+                    <img src="assets/tanque.svg" alt="">
                 </div>
                 <div class="opcion-contenido">
                     <h2>Cálculo de anuncios espectaculares y tanques de almacenamiento</h2>
@@ -171,7 +170,7 @@
             </div>
             <div class="opcion">
                 <div class="opcion-img">
-                    <img src="assets/ingenieroBlanco.png" alt="">
+                    <img src="assets/ingeniero.svg" alt="">
                 </div>
                 <div class="opcion-contenido">
                     <h2>Dirección y supervisión de obra</h2>
@@ -184,6 +183,213 @@
 
 
 
+<section class="apps" id="apps">
+            <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Aplicaciones móviles</h1>
+            <div class="app-banner fondo-imagen" data-aos="fade-up" data-aos-duration="1500">
+                <h3>¿Necesitas una aplicación móvil para tus clientes o para administrar tu negocio?</h3>
+                <br><br>
+                <h4>Nosotros podemos ayudarte a desarrollar esa aplicación que necesitas, adecuandola a tus necesidades, usando la mejor tecnología</h4>
+            </div>
+            <div class="app-tipo">
+                <div class="tipo" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="img/android.svg" alt="">
+                    <p class="tipo-titulo">Aplicaciones Android</p>
+                    <br>
+                    <p class="tipo-desc">Creamos tu aplicación solo para dispositivos moviles con sistema operativo android.</p>
+                </div>
+                <div class="tipo" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="img/apple.svg" alt="">
+                    <p class="tipo-titulo">Aplicaciones IOS</p>
+                    <br>
+                    <p class="tipo-desc">Creamos tus aplicaciones para dispositivos moviles Iphone.</p>
+                </div>
+                <div class="tipo" data-aos="fade-down" data-aos-duration="1500">
+                    <img src="img/code.svg" alt="">
+                    <p class="tipo-titulo">Aplicaciones híbridas</p>
+                    <br>
+                    <p class="tipo-desc">Creamos tus aplicacioens para dispositivos moviles tanto android como IOS.</p>
+                </div>
+            </div>
+
+            <br><br>
+            <h3 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Te ofrecemos los siguientes servicios para tu aplicación</h3>
+
+            <div class="app-tecnologia">
+                <div class="tec">
+                    <img src="img/google-maps.svg" data-aos="flip-left" data-aos-duration="1500">
+                    <div class="tec-contenido" data-aos="zoom-in" data-aos-duration="1500">
+                        <h3>Google maps</h3>
+                        <br>
+                        <h4>Sí necesitas integrar mapas en tiempo real en tu aplicación para entregas a domicilio, ubicaciones, etc. Podemos ayudarte.</h4>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="tec">
+                    <img src="img/pago.svg" data-aos="flip-left" data-aos-duration="1500">
+                    <div class="tec-contenido" data-aos="zoom-in" data-aos-duration="1500">
+                        <h3>Pagos en la aplicación</h3>
+                        <br>
+                        <h4>Ofrecer diferentes tipos de pago a tus clientes en tus aplicacioens para darles esa comodidad de pagar con tarjetas de crédito.</h4>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="tec">
+                    <img src="img/seguridad.svg" data-aos="flip-left" data-aos-duration="1500">
+                    <div class="tec-contenido" data-aos="zoom-in" data-aos-duration="1500">
+                        <h3>Seguridad en tus aplicaciones</h3>
+                        <br>
+                        <h4>Ofrecemos la mejor seguridad para tus aplicacioenes y clientes con autentificación y tokens.</h4>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="tec">
+                    <img src="img/bd.svg" data-aos="flip-left" data-aos-duration="1500">
+                    <div class="tec-contenido" data-aos="zoom-in" data-aos-duration="1500">
+                        <h3>Bases de datos</h3>
+                        <br>
+                        <h4>Necesitas que tu aplicación guarde registros, información o datos, podemos integrar bases de datos con tu aplicación.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- 
+        <section class="proyectos" id="proyectos">
+      
+ <div class="content-servicios">
+          
+           <div class="banner">
+                 <h2 class="animated fadeInDown">Proyectos</h2>
+            </div>
+            <div class="opciones" >
+
+             <div class="opcion">
+                <div class="opcion-img">
+                    <img src="assets/preguntaa.png" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h2>Consultoria</h2>
+                    <br>
+                     
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcion-img">
+                    <img src="assets/edificios.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h2>Cálculo estructural</h2>
+                    <br>
+                    
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcion-img">
+                    <img src="assets/mantenimiento.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h2>Mantenimiento</h2>
+                    <br>
+                    
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcion-img">
+                    <img src="assets/puente.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h2>Puentes</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcion-img">
+                    <img src="assets/tanque.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h2>Cálculo de anuncios espectaculares y tanques de almacenamiento</h2>
+                    <br>
+                   
+                </div>
+            </div>
+            <div class="opcion">
+                <div class="opcion-img">
+                    <img src="assets/ingeniero.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h2>Dirección y supervisión de obra</h2>
+                    <br>
+                </div>
+            </div>
+        </div>
+        </div>   -->
+        <!--    
+        <div class="opcioness">
+             <div class="opcionn animated fadeInLeft">
+                <div class="opcion-imgg">
+                    <img src="../../img/monitor.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h3>Hotel Hosting</h3>
+                    <br>
+                    <p>Diseñado para los clientes o empresas de reciente creación, que buscan darse a conocer mediante el uso de los medios digitales y así poder empezar a ganar reputación.</p>
+                </div>
+            </div>
+            <div class="opcionn animated fadeInDown">
+                <div class="opcion-imgg">
+                    <img src="../../img/www.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h3>Página web informativa + redes sociales</h3>
+                    <br>
+                    <p>Recomendado para empresas de reciente creación,la creación de contenido de interés para estos.</p>
+                </div>
+            </div>
+            <div class="opcionn animated fadeInRight">
+                <div class="opcion-imgg">
+                    <img src="../../img/app-web-movil.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h3>Aplicacion web + redes sociales</h3>
+                    <br>
+                    <p>Paquete avanzado, para empresas, activa en los medios actuales.</p>
+                </div>
+            </div>
+            <div class="opcionn animated fadeInLeft">
+                <div class="opcion-imgg">
+                    <img src="../../img/base-de-datos.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h3>Aplicación web + Aplicación de escritorio + redes sociales</h3>
+                    <br>
+                    <p>¿Tienes una empresa o negocio con procesos mas complejos? esta opción es la adecuada para ti.</p>
+                </div>
+            </div>
+            <div class="opcionn animated fadeInUp">
+                <div class="opcion-imgg">
+                    <img src="../../img/telefono.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h3>Aplicación móvil</h3>
+                    <br>
+                    <p>Sí necesitas una aplicación movil para tus clientes,necesites.</p>
+                </div>
+            </div>
+            <div class="opcionn animated fadeInRight">
+                <div class="opcion-img">
+                    <img src="../../img/preparar.svg" alt="">
+                </div>
+                <div class="opcion-contenido">
+                    <h3>Paquete personalizado</h3>
+                    <br>
+                    <p>Cuéntanos como opera tu empresa y te ayudamos a mejorarla con nuestra tecnología.</p>
+                </div>
+            </div>
+        </div> -->
+    <!-- </section> -->
 
 
 
