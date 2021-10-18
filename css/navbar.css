@@ -114,6 +114,10 @@ header nav #menu-icon {
 
 
 /*clase para cuando se detecte un scroll en la pantalla*/
+.scrolling-active {
+    background-color: #262626;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+}
 
 .scrolling-active {
     background-color: #262626;
@@ -129,6 +133,8 @@ header nav #menu-icon {
 }
 
 .scrolling-active nav .logo {
+    background-image: url('assets/H-originalBlanco.png');
+
     width: 90%;
 }
 
@@ -156,3 +162,7 @@ header nav #menu-icon {
 .scrolling-active a {
     color: white;
 }
+
+/*.scrolling-active nav img {
+background-color: blue;
+}*/
