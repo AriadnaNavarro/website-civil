@@ -10,18 +10,11 @@ window.addEventListener('scroll', function() {
     header.classList.toggle('scrolling-active', windowPosition);
 
     let logo = document.getElementById('logoH');
-
     if( windowPosition > 0 ){
 			logo.src= "assets/H-originalBlanco.png";
 		} else {
 			logo.src= "assets/H-original.png";
-
 		}
-
-    // let logo = document.getElementById('logoH').src = "assets/H-originalBlanco.png";
-    // logo.classList.
-
-
 });
 
 
