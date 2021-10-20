@@ -17,7 +17,7 @@ header nav {
     align-items: center;
     justify-content: center;
     transition: all .5s ease;
-
+ 
 }
 
 
@@ -56,8 +56,8 @@ nav .link:hover {
 }
 
 header nav ul .link-active {
-    background-color: white;
-    color: black !important;
+    background-color: red;
+    color: white !important;
     border: 2px solid rgb(0, 0, 0);
 }
 
@@ -102,11 +102,17 @@ header nav #menu-icon {
         padding-top: 30px;
         margin-top: 0;
     }
-    nav ul .link {
+    nav ul .links {
         margin-top: 300px;
         color: white;
     }
+
+     nav ul li {
+        margin-top: 30px;
+    }
+   
 }
+
 
 .abrirMenu {
     left: 0;
@@ -121,20 +127,15 @@ header nav #menu-icon {
 
 .scrolling-active {
     background-color: #262626;
-    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 1rem rgba(0, 0, 0, .1);
 }
 
 .scrolling-active nav {
     flex-direction: row;
 }
 
-.scrolling-active nav ul {
-    margin: 0;
-}
 
 .scrolling-active nav .logo {
-    background-image: url('assets/H-originalBlanco.png');
-
     width: 90%;
 }
 
@@ -142,15 +143,17 @@ header nav #menu-icon {
     color: white; /*color de icono del menu */
 }
 
-.scrolling-active nav .link {
+.scrolling-active nav .links {
     color: white;
 }
 
-.scrolling-active nav .link-active {
+/*.scrolling-active nav li .active {
     color: red;
     border: 2px solid white;
-    background-color: white;
-}
+    background-color: red;
+}*/
+
+
 
 .scrolling-active nav .link:hover {
     background-color: transparent;
@@ -159,7 +162,7 @@ header nav #menu-icon {
     transition: all 0.5s;
 }
 
-.scrolling-active a {
+.scrolling-active nav a {
     color: white;
 }
 
