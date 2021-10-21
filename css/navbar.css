@@ -1,4 +1,4 @@
- header {
+header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -31,6 +31,10 @@ header nav ul {
     align-items: center;
     align-content: center;
     text-align: center;
+}
+
+nav ul li {
+    margin-right: 15px;
 }
 
 header nav ul .link {
@@ -78,7 +82,7 @@ header nav #menu-icon {
     font-weight: bold;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 550px) {
     header nav #menu-icon {
         display: inline;
     }
