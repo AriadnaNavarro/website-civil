@@ -320,6 +320,10 @@ section .section-vision img {
     .bannerProyectos {
         margin-bottom: 17px;
     }
+
+
+
+
 }
 
 
@@ -353,7 +357,7 @@ section .section-vision img {
    opacity: 0;
    visibility: hidden;
    text-align: center;
-   
+
 }
 
 .proyecto:hover > .info-proyecto{
