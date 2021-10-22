@@ -451,6 +451,24 @@ section .content-contacto img {
     .datoscontacto {
        flex-direction: column;
     }
+
+    .datoscontacto{
+    /*text-align: left;*/
+   
+    padding: 20px 0 0 20px;
+    margin: 0 0 0 40px;
+}
+
+
+/*estilos info contactoS*/
+.info-contact {
+    
+    float: left;
+    color: black;
+    margin: 20px 0 0 40px;
+    font-size: 1rem
+
+}
     
 }
 
@@ -461,19 +479,19 @@ section .content-contacto img {
 
 .datoscontacto{
     /*text-align: left;*/
-    background: red;
+   
     padding: 20px 0 0 0;
-    margin: 0 0 0 40px;
+    margin: 10px 0 0 10px;
 }
 
 
 /*estilos info contactoS*/
 .info-contact {
-    background: coral;
-    text-align: left;
+    /*text-align: left;*/
+    float: left;
     color: black;
-    margin: 10px;
-    font-size: 1.2rem
+    margin: 20px 0 0 40px;
+    font-size: 1.1rem
 
 }
 
