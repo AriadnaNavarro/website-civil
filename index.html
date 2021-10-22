@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/footer.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
 
 
@@ -255,12 +256,15 @@
         </section>
         
 
-<section class="contactohuax" id="contacto"> 
-            <div class="banner-contacto">
+<section id="contacto" style=" 
+/*display: flex;*/
+  justify-content: center;
+ padding: 60px 0 0 0 !important; 
+"> 
+          <!--   <div class="banner-contacto">
             <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">CONTACTO</h1>
             </div>
    <div class="content-contacto">
-         <!--    <img src="assets/undraw_under_construction_46pa.svg" alt="" data-aos="flip-left" data-aos-duration="1500"> -->
 
 
 
@@ -291,7 +295,7 @@
               
                
                 <form action="contacto.php" >
-            <!-- nombre -->
+            nombre
             <div class="nombre">
                 <div class="entrada" data-aos="fade-left" data-aos-duration="1500">
                     <div class="icono">
@@ -302,28 +306,28 @@
 
             </div>
 
-            <!-- Correo electronico -->
+            Correo electronico
             <div class="entrada" data-aos="fade-left" data-aos-duration="1500">
                 <div class="icono">
                     <i class="fas fa-envelope"></i>
                 </div>
                 <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
             </div>
-            <!-- empresa -->
+            empresa
             <div class="entrada" data-aos="fade-left" data-aos-duration="1500">
                 <div class="icono">
                     <i class="fas fa-building"></i>
                 </div>
                 <input type="text" id="empresa" placeholder="Empresa" name="empresa">
             </div>
-            <!-- telefono -->
+            telefono
             <div class="entrada" data-aos="fade-left" data-aos-duration="1500">
                 <div class="icono">
                     <i class="fas fa-phone"></i>
                 </div>
                 <input type="tel" id="numero" name="telefono" placeholder="número telefónico">
             </div>
-            <!-- mensaje -->
+            mensaje
             <div class="entrada" data-aos="fade-left" data-aos-duration="1500">
                 <div class="icono">
                     <i class="fas fa-paper-plane"></i>
@@ -337,6 +341,44 @@
 
             </div>
         </div>
+ -->
+
+
+<div class="content-contacto" style="">
+
+      
+
+        <div class="banner-contacto">
+                <div class="banner">
+                <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">CONTACTO</h1>
+            </div>    
+
+
+    <div class="contact-section" >
+      <div class="contact-info">
+        <div><i class="fas fa-map-marker-alt"></i>Fraccionamiento los Agaves, Santa Cruz Xoxocotlán, Oaxaca</div>
+        <div><i class="fas fa-envelope"></i>iihuaxyacac@gmail.com</div>
+        <div><i class="fas fa-phone"></i>9511953968</div>
+        <div><i class="fas fa-clock"></i>Lunes - Viernes 9:00 - 20:00</div>
+      </div>
+      <div class="contact-form">
+        <form class="contact" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Tu nombre" required>
+          <input type="email" name="email" class="text-box" placeholder="Tu correo electrónico" required>
+          <textarea name="message" rows="5" placeholder="Cuentanos de tu proyecto" required></textarea>
+          <input type="submit" name="submit" class="btn" value="Enviar">
+        </form>
+      </div>
+    </div>
+    
+    <br>
+
+
+
+
+
+</div>
+
 
 </section>
 
