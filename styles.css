@@ -12,19 +12,19 @@
 */
 
 .carrousel .carrousel_images .i1 {
-    background-image: url('https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_960_720.jpg');
+    background-image: url('assets/l1.jpg');
 }
 
 .carrousel .carrousel_images .i2 {
-    background-image: url('https://cdn.pixabay.com/photo/2016/11/18/17/46/architecture-1836070_960_720.jpg');
+    background-image: url('assets/l2.jpg');
 }
 
 .carrousel .carrousel_images .i3 {
-    background-image: url('https://cdn.pixabay.com/photo/2015/11/27/20/28/florence-1066314_960_720.jpg');
+    background-image: url('assets/l3.jpeg');
 }
 
 .carrousel .carrousel_images .i4 {
-    background-image: url('https://cdn.pixabay.com/photo/2016/12/17/20/05/building-1914309_960_720.jpg');
+    background-image: url('assets/l4.jpeg');
 }
 
 .carrousel .carrousel_images .i5 {
@@ -341,8 +341,8 @@ section .section-vision img {
 }
 
 .proyecto img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     /*transition: all 500ms ease-out;*/
 
 }
