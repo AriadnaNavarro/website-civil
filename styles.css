@@ -732,7 +732,7 @@ width: 60%;
 
 .contact-section{
   width: 100%;
-padding: 55px 0 10px 0;
+padding: 5px 0 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -741,9 +741,10 @@ padding: 55px 0 10px 0;
 
 .contact-info{
   color: #fff;
-  line-height: 65px;
-  padding-left: 50px;
+  line-height: 60px;
+  padding-left: 40px;
   font-size: 18px;
+  text-align: left; 
 }
 
 .contact-info i{
