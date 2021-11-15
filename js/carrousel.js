@@ -24,3 +24,8 @@ carrouselButtons.forEach(button => {
         carrouselImages.style.left = `${ translateX }%`;
     });
 });
+
+setInterval (function (){
+
+}, 5000);
+
