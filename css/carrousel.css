@@ -1,5 +1,5 @@
 .carrousel {
-    /* display: flex; */
+     /* display: flex; */
     align-items: center;
     margin: 1rem auto;
     overflow: hidden;
@@ -8,9 +8,10 @@
     el script para pasar a la siguiente o retroseder una imagen */
     width: 70%;
     height: 450px;
-/*    border-radius: 2px;*/ 
 
-    bottom: 35px;
+
+
+    
 }
 
 .carrousel  .carousel-caption{
@@ -41,7 +42,7 @@
 
 
 .carrousel .carousel .carousel-inner .carousel-item img {
-    border-radius: 10px;
+   /* border-radius: 10px;*/
     width: 100%;
     max-height: 450px !important;
     display: block;
