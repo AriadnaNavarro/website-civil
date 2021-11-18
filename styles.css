@@ -689,26 +689,15 @@ width: 60%;
 
 
 
-/*.contactohuax {
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 100px 0 80px 0;
- 
-  
-}*/
-
-
 .content-contacto {
-       position: relative;
+    position: relative;
     top: 0;
     text-align: center;
     margin: 0;
     z-index: 1;
     color: white;
     align-content: center;
-    padding: 0 auto 3px auto;
+    padding: 0 3px auto !important;
    
 }
 
@@ -720,7 +709,7 @@ width: 60%;
     width: 100%;
     height: 100%;
     z-index: -1;
-    filter: brightness(50%); 
+    filter: brightness(20%); 
     zoom: 1;
     background-image: url('https://image.freepik.com/free-photo/business-handshake-two-men-demonstrating-their-agreement-sign-agreement-contract-their-firms-companies-enterprises_1423-100.jpg');
     background-repeat: no-repeat;
@@ -730,27 +719,8 @@ width: 60%;
 
 
 
-
-/*
-
 .banner-contacto {
-   
-    color: black;
-    padding: 10px 0 0 10px;
-    margin-bottom: 20px;
-
-    }
-
-
-.banner-contacto h1 {
-    font-size: 2rem;
-       
-
-}*/
-
-
-.banner-contacto {
-     padding: 55px 0 10px 0;
+    padding: 55px 0 10px 0;
     margin-bottom:0 30px 0 0;
     color: white;
     }
@@ -789,13 +759,6 @@ padding: 5px 0 10px 0;
   
 }
 
-/*input::placeholder{
-    color: white;
- }
- textarea::placeholder{
-    color: white;
- }*/
-
 
 .contact-info, .contact-form{
   flex: 1;
@@ -810,8 +773,8 @@ padding: 5px 0 10px 0;
 }
 
 .contact-form .text-box{
-  background: #000;
-  color: #fff;
+  background: #ffffff;
+  color: #000;
   border: none;
   width: calc(50% - 10px);
   height: 50px;
@@ -828,8 +791,8 @@ padding: 5px 0 10px 0;
 }
 
 .contact-form textarea{
-  background: #000;
-  color: white;
+  background: #ffffff;
+  color: #000;
   border: none;
   width: 100%;
   padding: 12px;
@@ -844,36 +807,25 @@ padding: 5px 0 10px 0;
 }
 
 .contact-form .btn{
-/*  float: right;
-  background: #262626;
-  color: #fff;
-  border: none;
-  width: 120px;
-  height: 40px;
-  font-size: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  transition-property: background;*/
 
   width: 60%;
-  color: white;
-  background-color: #000;
-  padding: 10px;
-  font-weight: 900
+  color: black;
+  background-color: #ffffff;
+  padding: 8px;
   letter-spacing: 1px;
   border: 0;
-  border-radius: 2px;
+  border-radius: 5px;
   outline: 0;
   transition: all .2s; 
   font-size: 1.2rem;
+
 }
 
-.contact-form .send-btn:hover{
-  background: #0582E3;
+
+
+.contact-form .btn:hover{
+  background: #C1BDBD;
+
 }
 
 @media screen and (max-width: 950px){
